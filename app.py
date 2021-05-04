@@ -9,3 +9,12 @@ print ("Ha Young"[0])
 print ("Ha Young"[0:2])
 # 공백도 출력됨
 print ("Ha Young"[0:3])
+
+# 배열
+car = ['K5','white',5000]
+
+# Dictionary
+car2 = [
+    'brand' :'BMW',
+    'model':'520d'
+]
