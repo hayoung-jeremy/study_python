@@ -35,3 +35,14 @@ elif 3 in number_list:
     print("the number is 3")
 else:
     print("the number is 0")
+
+# for
+for variable_name in range (0,10):
+    print("this is done by for")
+
+data_list = ["data 1", 'data 2', 'data 3']
+for data_in_the_list in data_list :
+    # print(data_in_the_list)
+
+    # 각각의 data 에 적용됨
+    print(data_in_the_list * 3)
