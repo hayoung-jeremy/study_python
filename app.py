@@ -2,8 +2,8 @@
 # python 에서는 snake_case 를 사용함
 
 # variable types :
-# true, false 는 대문자로 시작
 v_string = "Ha young"
+# true, false 는 대문자로 시작
 v_boolean_t = True
 v_boolean_f = False
 v_number = 1
@@ -16,14 +16,15 @@ print(type(v_number)) # <class 'int'> : integer (정수)
 print(type(v_float)) # <class 'float'> : float (소수)
 print(type(v_none)) # <class 'NoneType'> : None (empty)
 
+# sequence types :
+# 1) lst     *mutable
+v_list = ["Mon", "Tue", "Wed", "Thur"]
 
-print ("Ha Young"[0])
-print ("Ha Young"[0:2])
-# 공백도 출력됨
-print ("Ha Young"[0:3])
+print(type(v_list)) # <class 'list'> : list (배열)
+print(len(v_list)) # length (4)
 
-# 배열
-car = ['K5','white',5000]
+print (v_list[0])
+print (v_list[0:2])
 
 # Dictionary
 car2 = {
