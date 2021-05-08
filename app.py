@@ -16,6 +16,7 @@ print(type(v_number)) # <class 'int'> : integer (정수)
 print(type(v_float)) # <class 'float'> : float (소수)
 print(type(v_none)) # <class 'NoneType'> : None (empty)
 
+
 # sequence types :
 # 1) lst     *mutable
 v_list = ["item_1", "item_2", "item_3", "item_4"]
@@ -31,7 +32,7 @@ v_tuple = ("item_1", "item_2", "item_3", "item_4")
 
 print(type(v_tuple)) # <class 'tuple'> : tuple (변경 불가능한 배열)
 
-# 3) dictionary     
+# 3) dictionary     *mutable
 v_dict = {
     'name' : 'Ha young',
     'age' : '31',
@@ -41,12 +42,19 @@ v_dict = {
 print(v_dict["name"])
 v_dict["korean"] = True # 내용 추가 가능
 
+
 # built in functions
 # ex)
 print(type(v_number))
 n_num = int(v_number)
 print(type(n_num))
 
+
+# define functions
+def say_hi (to_whom="default_name"): # arg 에 default value 를 정해줄 수 있음
+    print("hi,", to_whom)
+
+say_hi("Ha young") # hi, Ha young
 
 # if
 number = 5
