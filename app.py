@@ -1,8 +1,20 @@
 # javaScript 처럼 hoisting 기능은 없음, 변수를 사용하고싶으면 반드시 변수를 맨위에 설정해야함
-# print ("Hello" + name)
+# python 에서는 snake_case 를 사용함
 
-name = "Ha young"
-print (name)
+# variable types :
+# true, false 는 대문자로 시작
+v_string = "Ha young"
+v_boolean_t = True
+v_boolean_f = False
+v_number = 1
+v_float = 1.1
+v_none = None
+
+print(type(v_string)) # <class 'str'> : string
+print(type(v_boolean_f)) # <class 'bool'> : boolean
+print(type(v_number)) # <class 'int'> : integer (정수)
+print(type(v_float)) # <class 'float'> : float (소수)
+print(type(v_none)) # <class 'NoneType'> : None (empty)
 
 
 print ("Ha Young"[0])
