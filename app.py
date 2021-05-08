@@ -41,6 +41,13 @@ v_dict = {
 print(v_dict["name"])
 v_dict["korean"] = True # 내용 추가 가능
 
+# built in functions
+# ex)
+print(type(v_number))
+n_num = int(v_number)
+print(type(n_num))
+
+
 # if
 number = 5
 if number > 0 :
