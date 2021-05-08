@@ -18,19 +18,28 @@ print(type(v_none)) # <class 'NoneType'> : None (empty)
 
 # sequence types :
 # 1) lst     *mutable
-v_list = ["Mon", "Tue", "Wed", "Thur"]
+v_list = ["item_1", "item_2", "item_3", "item_4"]
 
-print(type(v_list)) # <class 'list'> : list (배열)
+print(type(v_list)) # <class 'list'> : list (변경 가능한 배열)
 print(len(v_list)) # length (4)
 
 print (v_list[0])
 print (v_list[0:2])
 
-# Dictionary
-car2 = {
-    'brand':'BMW',
-    'model':'520d'
+# 2) tuple     *immutable
+v_tuple = ("item_1", "item_2", "item_3", "item_4")
+
+print(type(v_tuple)) # <class 'tuple'> : tuple (변경 불가능한 배열)
+
+# 3) dictionary     
+v_dict = {
+    'name' : 'Ha young',
+    'age' : '31',
+    'fav_food' : 'pizza'
 }
+
+print(v_dict["name"])
+v_dict["korean"] = True # 내용 추가 가능
 
 # if
 number = 5
