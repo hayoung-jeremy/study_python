@@ -67,6 +67,18 @@ p_result = p_plus(2,3)
 r_result = r_plus(2,3)
 print(p_result, r_result) # None, 5
 
+# keyword arguments
+def k_minus(a,b):
+    return(a-b)
+k_result = k_minus(b=20, a=10) # -10
+# 이전까지 위치(앞, 뒤)에 의해 결정되는 positional arguments와 달리, 값을 지정한 keyword arguments 사용 가능
+
+# f{} : str 안에 변수를 포함시킴
+def say_hello( name, age):
+    return f"hello {name}, you are {age} years old"
+
+hello = say_hello( "ha young", 31 )
+
 # if
 number = 5
 if number > 0 :
