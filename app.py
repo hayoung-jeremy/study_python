@@ -83,24 +83,6 @@ def say_hello( name, age):
 hello = say_hello( "ha young", 31 )
 
 
-# if
-number = 5
-if number > 0 :
-    print("number is bigger than 0")
-else :
-    print("number is smaller than 0")
-
-number_list = [0, 1, 2, 3]
-if 1 in number_list :
-    print("the number is 1")
-elif 2 in number_list:
-    print("the number is 2")
-elif 3 in number_list:
-    print("the number is 3")
-else:
-    print("the number is 0")
-
-
 # for
 for variable_name in range (0,10):
     print("this is done by for")
