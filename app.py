@@ -56,6 +56,17 @@ def say_hi (to_whom="default_name"): # arg 에 default value 를 정해줄 수 �
 
 say_hi("Ha young") # hi, Ha young
 
+# return
+def p_plus(a,b):
+    print(a+b)
+def r_plus(a,b):
+    return(a + b)
+    print("this will not be executed") # because, return kills the function
+
+p_result = p_plus(2,3)
+r_result = r_plus(2,3)
+print(p_result, r_result) # None, 5
+
 # if
 number = 5
 if number > 0 :
